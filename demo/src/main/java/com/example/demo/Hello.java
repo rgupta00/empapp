@@ -15,5 +15,10 @@ public class Hello {
 		return "hello2 to spring boot rest";
 	}
 	
+	@GetMapping(path = "hello3")
+	public String hello3() {
+		return "hello3 to spring boot rest";
+	}
+	
 	
 }
