@@ -10,4 +10,10 @@ public class Hello {
 	public String hello() {
 		return "hello to spring boot rest";
 	}
+	@GetMapping(path = "hello2")
+	public String hello2() {
+		return "hello2 to spring boot rest";
+	}
+	
+	
 }
