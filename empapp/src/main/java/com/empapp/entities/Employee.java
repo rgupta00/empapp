@@ -18,6 +18,7 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Entity
+//employee entity mapped to emp_table
 @Table(name="emp_table")
 public class Employee {
 	@Id
