@@ -17,6 +17,7 @@ public class Hello {
 	
 	@GetMapping(path = "hello3")
 	public String hello3() {
+		System.out.println("i love java");
 		return "hello3 to spring boot rest";
 	}
 	
